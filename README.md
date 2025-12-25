@@ -1,6 +1,7 @@
 # KarmaDescent App
 
 FastAPI（バックエンド）と React Native / Expo（フロントエンド）を組み合わせた、徳（Karma）を可視化するアプリケーションのプロトタイプです。
+※本プロジェクトは技術検証を目的としており、AIとのペアプログラミングを通じて迅速なプロトタイピングとベストプラクティスの学習を実践しています。
 
 ## 🛠 プロジェクト構成
 - **KarmaDescentAPI**: FastAPI を使用した REST API。Firebase Authentication との連携機能を実装中。

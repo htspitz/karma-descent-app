@@ -6,7 +6,7 @@ from fastapi import Header, HTTPException
 # 🚨 【最重要 P 行動】サービスアカウントキーのパスに置き換えてください
 # FirebaseコンソールからダウンロードしたJSONファイルのパスを指定する必要があります。
 # Windowsの絶対パスを安全に扱うため、r'' (Raw文字列)を使用します。
-SERVICE_ACCOUNT_KEY_PATH = r"C:\Users\user\Documents\karma_mobile\KarmaDescentAPI\serviceAccountKey.json"
+SERVICE_ACCOUNT_KEY_PATH = "serviceAccountKey.json"
 
 # Firebase Admin SDKの初期化
 try:

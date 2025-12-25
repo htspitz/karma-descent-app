@@ -26,7 +26,7 @@ try:
     DATABASE_NAME = "karmadescent-db" 
     
     # ServiceAccountKeyのJSONファイルを読み込む (認証情報)
-    SERVICE_ACCOUNT_KEY_PATH = r"C:\Users\user\Documents\karma_mobile\KarmaDescentAPI\serviceAccountKey.json"
+    SERVICE_ACCOUNT_KEY_PATH = r"serviceAccountKey.json"
     
     if os.path.exists(SERVICE_ACCOUNT_KEY_PATH):
         # 認証情報ファイルから認証情報をロード
